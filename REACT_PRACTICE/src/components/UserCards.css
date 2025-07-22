@@ -1,0 +1,23 @@
+
+.usercard form{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;
+    padding: 25px 50px; width: 400px; display: flex;flex-direction: column;
+}
+.usercard> h2{
+    text-align: center; color: rgb(106, 106, 106);
+}
+.usercard label{
+    display: inline-block; width: 100px; font-weight: bold; color: rgb(85, 84, 84);
+}
+.usercard input{
+  border: 1px solid gray; border-radius: 5px;   margin: 5px; padding: 5px;
+}
+.usercard input>p{
+  border: 1px solid gray; border-radius: 5px;   margin: 5px; padding: 5px;
+}
+.btndiv{
+    padding: 20px 5px 0 5px; text-align: center;
+}
+.btndiv button{
+   background-color: green; padding: 10px 20px; text-align: center; color: white; border: none;
+}

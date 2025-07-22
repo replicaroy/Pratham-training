@@ -5,6 +5,11 @@ import UserCard from './components/UserCard'
 import CompA from './components/CompA'
 import CompB from './components/CompB'
 import FetchData from './components/FetchData'
+import ControlledForm from './components/ControlledForm'
+import UncontrolledForm from './components/UncontrolledForm'
+import SampleForm from './components/SampleForm'
+import Todo from './components/Todo'
+import UserCards from './components/UserCards'
 
 
 function App() {
@@ -40,16 +45,16 @@ return (
      {/* {user && users.map((u, i) => (
        <button key={i} onClick={() => setUser(u)}>User {i + 1}</button>
      ))} */}
-
 {/* {counter>5 ?  <CompA/> :<CompB/> } */}
-   
-     
-
      {/* <button onClick={()=> setCounter(counter + 1)} >User1</button>
      <button onClick={()=> setCounter(counter - 1)} >User1</button>    */}
 
-<FetchData/>
-
+{/* <FetchData/> */}
+{/* <ControlledForm/> */}
+{/* <UncontrolledForm/> */}
+{/* <SampleForm/> */}
+{/* <Todo/> */}
+<UserCards/>
     </>
 
     
