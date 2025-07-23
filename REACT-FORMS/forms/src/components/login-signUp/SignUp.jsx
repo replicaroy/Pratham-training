@@ -42,7 +42,7 @@ export const SignUp = () => {
   };
 
   const handleSubmit = (e) => {
-    // const query = new URLSearchParams(user).toString();
+
     e.preventDefault();
     const validateErrors = validate();
     if (Object.keys(validateErrors).length > 0) {
@@ -53,7 +53,7 @@ export const SignUp = () => {
       setData([...data, user]);
       setUser(USERCARD);
       setError(false);
-      // navigate(`/dashboard?${query}`)
+  
       navigate(`/dashboard?firstname=${user.firstname}&lastname=${user.lastname}&email=${user.email}&password=${user.password}&confirmpassword=${user.confirmpassword}&age=${user.age}&role=${user.role}&gender=${user.gender}&intrest=${user.intrest}`);
     }
   };
@@ -150,6 +150,8 @@ export const SignUp = () => {
           ))}
         </div>
       )} */}
+
+     
     </>
   );
 };

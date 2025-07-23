@@ -10,6 +10,8 @@ import UncontrolledForm from './components/UncontrolledForm'
 import SampleForm from './components/SampleForm'
 import Todo from './components/Todo'
 import UserCards from './components/UserCards'
+import DynamicSelect from './components/DYNAMIC-PROPS/DynamicSelect'
+import SelectHome from './components/DYNAMIC-PROPS/SelectHome'
 
 
 function App() {
@@ -54,7 +56,10 @@ return (
 {/* <UncontrolledForm/> */}
 {/* <SampleForm/> */}
 {/* <Todo/> */}
-<UserCards/>
+{/* <UserCards/> */}
+{/* <Home/> */}
+{/* <DynamicSelect/> */}
+<SelectHome/>
     </>
 
     

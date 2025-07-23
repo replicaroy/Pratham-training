@@ -48,11 +48,11 @@ const Dashboard = () => {
       <p><b>Interest:</b> {intrest }</p>
       <p><b>Role:</b> {role }</p> */}
     </div>
-    {/* <nav style={{ marginTop: '20px', textAlign: 'center' }}>
+    <nav style={{ marginTop: '20px', textAlign: 'center', marginBottom: 50 }}>
           <Link to="/" style={{ marginRight: 10 }}>Home</Link>
           <Link to="/login" style={{ marginRight: 10 }}>Login</Link>
           <Link to="/signup">SignUp</Link>
-        </nav> */}
+        </nav>
     </div>
   );
 };
