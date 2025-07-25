@@ -25,6 +25,7 @@ const INTIAL_STATE ={
   const handleSubmit = (e) => {
       e.preventDefault();
       console.log(formData, 'formData');
+      setFormData(initi)
   };
 
   return (

@@ -12,12 +12,16 @@ import Todo from './components/Todo'
 import UserCards from './components/UserCards'
 import DynamicSelect from './components/DYNAMIC-PROPS/DynamicSelect'
 import SelectHome from './components/DYNAMIC-PROPS/SelectHome'
+import { useCounter } from './components/CUSTOM-HOOK/useCounter'
+
 
 
 function App() {
   const [text, setText] = useState('lorem ipsum .....')
-  const [user, setUser] = useState({})
+  const [user, setUser] = useState()
   const [counter, setCounter] = useState(0)
+
+const {counts, increment, decrement, increasebyFive, decreasebyFive} = useCounter();
 //   const [user, setUser] = useState([
 //     { name: 'ramu',  age: '20',  gender: 'male'   },
 //     { name: 'ajay',  age: '25',  gender: 'male'   },
@@ -59,8 +63,13 @@ return (
 {/* <UserCards/> */}
 {/* <Home/> */}
 {/* <DynamicSelect/> */}
-<SelectHome/>
-    </>
+{/* <SelectHome/> */}
+
+<h1>{counts}</h1>
+<button onClick={increment}>increase</button>
+<button onClick={decrement}>decrease</button>
+
+</>
 
     
 
