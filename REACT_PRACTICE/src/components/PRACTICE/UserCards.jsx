@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './UserCards.css';
-import Cards from './Cards';
+import Cards from './PRACTICE/Cards';
 
 const USERCARD = { firstname: "", lastname: "", email: "", password: "", age: '' };
 

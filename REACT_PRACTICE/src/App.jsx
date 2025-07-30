@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Card from './components/Card'
-import UserCard from './components/UserCard'
-import CompA from './components/CompA'
-import CompB from './components/CompB'
-import FetchData from './components/FetchData'
-import ControlledForm from './components/ControlledForm'
-import UncontrolledForm from './components/UncontrolledForm'
-import SampleForm from './components/SampleForm'
-import Todo from './components/Todo'
-import UserCards from './components/UserCards'
-import DynamicSelect from './components/DYNAMIC-PROPS/DynamicSelect'
-import SelectHome from './components/DYNAMIC-PROPS/SelectHome'
+// import Card from './components/PRACTICE/Card'
+// import UserCard from './components/PRACTICE/UserCard'
+// import CompA from './components/PRACTICE/CompA'
+// import CompB from './components/PRACTICE/CompB'
+// import FetchData from './components/PRACTICE/FetchData'
+// import ControlledForm from './components/PRACTICE/ControlledForm'
+// import UncontrolledForm from './components/PRACTICE/UncontrolledForm'
+// import SampleForm from './components/PRACTICE/SampleForm'
+// import Todo from './components/PRACTICE/Todo'
+// import UserCards from './components/UserCards'
+// import DynamicSelect from './components/DYNAMIC-PROPS/DynamicSelect'
+// import SelectHome from './components/DYNAMIC-PROPS/SelectHome'
 import { useCounter } from './components/CUSTOM-HOOK/useCounter'
-
+import Form from './components/CUSTOM-HOOK/Form'
+// import {Form} from './components/CUSTOM-HOOK/Form'
 
 
 function App() {
@@ -64,10 +65,12 @@ return (
 {/* <Home/> */}
 {/* <DynamicSelect/> */}
 {/* <SelectHome/> */}
+<Form/>
 
-<h1>{counts}</h1>
+
+{/* <h1>{counts}</h1>
 <button onClick={increment}>increase</button>
-<button onClick={decrement}>decrease</button>
+<button onClick={decrement}>decrease</button> */}
 
 </>
 
