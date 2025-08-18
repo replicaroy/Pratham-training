@@ -1,0 +1,68 @@
+/* styles.css */
+button {
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  margin: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(107, 115, 255, 0.5);
+  transition: all 0.3s ease;
+  /* user-select: none; */
+  outline: none;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #000dff 0%, #6b73ff 100%);
+  box-shadow: 0 8px 20px rgba(0, 13, 255, 0.7);
+  /* transform: translateY(-3px); */
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(0, 13, 255, 0.5);
+}
+
+button:focus {
+  outline: 3px solid #a2bfff;
+  outline-offset: 2px;
+}
+
+
+.btn {
+  /* common styles here */
+}
+
+.increment {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  box-shadow: 0 6px 15px rgba(56, 249, 215, 0.5);
+}
+
+.increment:hover {
+  background: linear-gradient(135deg, #38f9d7 0%, #43e97b 100%);
+  box-shadow: 0 8px 20px rgba(56, 249, 215, 0.7);
+}
+
+.decrement {
+  background: linear-gradient(135deg, #ff4e50 0%, #f9d423 100%);
+  box-shadow: 0 6px 15px rgba(249, 212, 35, 0.5);
+}
+
+.decrement:hover {
+  background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+  box-shadow: 0 8px 20px rgba(249, 212, 35, 0.7);
+}
+
+.reset {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  box-shadow: 0 6px 15px rgba(37, 117, 252, 0.5);
+}
+
+.reset:hover {
+  background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+  box-shadow: 0 8px 20px rgba(37, 117, 252, 0.7);
+}
+

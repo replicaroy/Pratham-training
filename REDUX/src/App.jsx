@@ -8,6 +8,9 @@ import { use } from 'react'
 import Login from './components/Login'
 import { Route, Routes } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
+import Count from './components/Count'
+import Home from './pages/Home'
+import UserLogin from './pages/UserLogin'
 
 
 function App() {
@@ -22,10 +25,11 @@ const dispatch = useDispatch();
       </div>    
       {count}   */}
       <Routes>
-        <Route path='/' element={<Login/>} />
+        <Route path='/' element={<UserLogin/>} />
         <Route path='/dashboard' element={<Dashboard/>} />
+        {/* <Route path='/login' element={<UserLogin/>} /> */}
       </Routes>
-
+{/* <Home/> */}
 
     </>
   )
